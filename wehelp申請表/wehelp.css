@@ -1,0 +1,119 @@
+*::selection {
+  background-color: rgba(103, 139, 246, 0.659);
+}
+
+h1 {
+  font-size: 48px;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  margin-top: 0%;
+  margin-bottom: 50%;
+
+  text-align: center;
+
+  background-color: #233e48;
+}
+
+h2 {
+  font-size: 24px;
+
+  border-width: 1px;
+
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 30px;
+  margin-bottom: 0;
+
+  padding: 0em 0.4em;
+
+  border-left: 15px solid #398aab;
+  border-radius: 5px;
+
+  background-color: #afd0dd;
+
+  animation-name: cross;
+  animation-duration: 2s;
+
+  cursor: grab;
+}
+
+@keyframes cross {
+  from {
+    background-color: rgb(19, 125, 90);
+  }
+  to {
+    background-color: #afd0dd;
+  }
+}
+
+p {
+  font-family: "Noto Serif TC", serif;
+  font-size: 16px;
+  text-indent: 32px;
+  text-align: justify;
+
+  padding: 5px;
+
+  margin-top: 0%;
+  margin-left: 20%;
+  margin-right: 20%;
+
+  border-radius: 5px;
+  background-color: #afd0dd;
+
+  cursor: crosshair;
+}
+
+.hr1 {
+  border: 1px solid rgb(0, 12, 18);
+  margin-top: 0%;
+  margin-bottom: 0%;
+  margin-left: 20.2%;
+  margin-right: 20.2%;
+}
+
+table,
+th,
+td {
+  border: 2px solid black;
+}
+
+table {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+table:hover {
+  background-color: rgb(64, 211, 118);
+  transition: all 1s ease-in;
+  transform: scale(1.2, 1.1);
+}
+
+td:hover {
+  background-color: #398aab;
+  color: aliceblue;
+  transition: all 0.5s ease-in-out;
+}
+
+.refweb {
+  background-color: rgba(0, 0, 0, 0.545);
+  color: aliceblue;
+  text-decoration: none;
+  padding: 0.025rem 0.025rem;
+}
+
+.refweb:hover {
+  background-color: black;
+}
+
+body {
+  background-image: url("./tom-briskey-AddAnDkkovM-unsplash.jpg");
+  background-size: cover;
+  background-position: top;
+}
